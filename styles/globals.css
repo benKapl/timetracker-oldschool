@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Windows95;
+  src: url('/fonts/W95FA.otf');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Windows95, 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #F2F2ED;
+  border-radius: 3px;
+  border: 1px #4768a9ea solid;
+  outline: 2px #4c81ec54 solid;
+  padding: 4px 10px 4px 10px;
+  margin: 4px 4px 0px 4px;
+  font-family: Windows95;
+  cursor: pointer;
+}
+
+input {
+  font-family: Windows95;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
